@@ -3,7 +3,7 @@ import '../models/recipe.dart';
 final List<Recipe> sampleRecipes = [
   Recipe(
     name: 'Jollof Rice',
-    imagePath: 'assets/images/jollof.jpg',
+    imagePath: 'assets/images/african.jpg',
     ingredients: [
       '2 cups long grain rice',
       '3 large tomatoes (blended)',
@@ -27,7 +27,7 @@ final List<Recipe> sampleRecipes = [
 
   Recipe(
     name: 'Fufu and Egusi Soup',
-    imagePath: 'assets/images/egusi.jpg',
+    imagePath: 'assets/images/mad2.jpg',
     ingredients: [
       '2 cups ground egusi (melon seeds)',
       'Palm oil',
@@ -48,27 +48,28 @@ final List<Recipe> sampleRecipes = [
   ),
 
   Recipe(
-    name: 'Akara',
-    imagePath: 'assets/images/akara.jpg',
+    name: 'Waakye',
+    imagePath: 'assets/images/waakye.jpg',
     ingredients: [
-      '2 cups peeled beans',
-      '1 small onion',
-      '1 red pepper',
+      '2 cups rice',
+      '1 cup black-eyed peas',
+      'Waakye leaves (or baking soda as substitute)',
       'Salt to taste',
-      'Vegetable oil for frying',
+      'Water',
+      'Optional sides: shito, boiled egg, fried plantain, salad, spaghetti',
     ],
     instructions:
-        '1) Soak beans and remove skins.\n'
-        '2) Blend beans with onion and pepper.\n'
-        '3) Add salt and mix thoroughly.\n'
-        '4) Heat oil in deep pan.\n'
-        '5) Scoop mixture into oil and fry until golden brown.\n'
-        '6) Drain and serve warm.',
+        '1) Wash rice and black-eyed peas thoroughly.\n'
+        '2) Boil black-eyed peas with waakye leaves until partially cooked.\n'
+        '3) Add rice and enough water to cook both together.\n'
+        '4) Add salt and allow to cook on medium heat.\n'
+        '5) Reduce heat and steam until rice and beans are tender.\n'
+        '6) Serve with shito, egg, plantain, and other sides.',
   ),
 
   Recipe(
     name: 'Suya',
-    imagePath: 'assets/images/suya.jpg',
+    imagePath: 'assets/images/mad3.jpg',
     ingredients: [
       'Beef strips',
       'Suya spice mix (yaji)',
