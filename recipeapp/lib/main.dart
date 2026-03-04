@@ -14,8 +14,7 @@ class RecipeBookApp extends StatelessWidget {
       title: 'Recipe Book',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+        primarySwatch: Colors.orange,
       ),
       home: const HomeScreen(),
     );
